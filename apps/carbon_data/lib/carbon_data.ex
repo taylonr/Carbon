@@ -1,0 +1,2 @@
+defmodule CarbonData do
+end
