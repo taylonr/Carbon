@@ -34,3 +34,8 @@
     </ul>
   </div>
 </div>
+
+<%= for u <- @users do %>
+  <p><%= u.first_name %></p>
+  <p><%= u.last_name %></p>
+<% end %>

@@ -33,6 +33,6 @@ config :carbon_data, ecto_repos: [CarbonData.Repo]
 
 config :carbon_data, CarbonData.Repo,
   adapter: Ecto.Adapters.Postgres,
-  database: "domain_scrapper",
+  database: "carbon_dev",
   username: "postgres",
   password: "postgres"

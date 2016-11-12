@@ -9,6 +9,7 @@ defmodule CarbonWeb do
     children = [
       # Start the endpoint when the application starts
       supervisor(CarbonWeb.Endpoint, []),
+      supervisor(CarbonData.Repo, [])
       # Here you could define other workers and supervisors as children
       # worker(CarbonWeb.Worker, [arg1, arg2, arg3]),
     ]
